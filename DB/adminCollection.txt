@@ -1,0 +1,15 @@
+DIVINE ADMIN
+============
+Id:Long
+Name:String
+UserName:String
+Password:String
+EmailAddress:String
+Phone:String
+AdminUser:int
+Status:int
+LoginIpAddress:String
+lastLoginTimeStamp:DateTime
+lastLogoutTimeStamp:DateTime
+UpdateTimeStamp:DateTime
+CreateDateTimeStamp:DateTime
