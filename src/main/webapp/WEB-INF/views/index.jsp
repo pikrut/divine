@@ -7,7 +7,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Admin</title>
-<link href="assets/css/login.css" type="text/css" rel="stylesheet" media="screen">
+<link href="resources/assets/css/bootstrap.css" type="text/css" rel="stylesheet" media="screen">
+<link href="resources/assets/css/login/login.css" type="text/css" rel="stylesheet" media="screen">
 </head>
 <body>
 	<!--
@@ -36,6 +37,6 @@
         </div><!-- /card-container -->
     </div><!-- /container -->
     
-      <script src="<c:url value="/assets/js/login.js" />"></script>
+      <script src="<c:url value="resources/assets/js/login.js" />"></script>
 </body>
 </html>

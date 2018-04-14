@@ -30,7 +30,7 @@ public class HomeController {
 	
 	@RequestMapping(value="/welcome", method=RequestMethod.POST)
 	public ModelAndView adminWelcome(@ModelAttribute AdminUser adminUser){
-		System.out.println(adminUser.getInputEmail());
+		//System.out.println(adminUser.getInputEmail());
 		ModelMap model = new ModelMap();
 		model.addAttribute("name", "niju");
 		return new ModelAndView("welcome", model);

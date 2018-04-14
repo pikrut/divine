@@ -15,6 +15,7 @@ import com.olive.divine.service.HelloWorldService;
 
 
 @RestController
+@RequestMapping(value="rest")
 public class HelloWorldController {
 	
 	@Autowired
